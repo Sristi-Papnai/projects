@@ -1,0 +1,52 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+section{
+    width: 700px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 20px auto;
+}
+
+div{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 2px;
+    height: 30px;
+    width: 40px;
+    margin: 9px;
+    animation: 2s infinite alternate forwards loader;
+
+}
+@keyframes loader {
+    from{
+        width: 40px;
+    }
+    to{
+        width: 650px;
+    }
+    
+}
+
+div:nth-of-type(1){
+animation-timing-function: ease-in;
+}
+div:nth-of-type(2)
+{
+animation-timing-function: ease-out;
+}
+div:nth-of-type(3)
+{
+
+animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+div:nth-of-type(4)
+{
+animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+div:nth-of-type(5)
+{
+    animation-timing-function: ease-in-out;
+}
