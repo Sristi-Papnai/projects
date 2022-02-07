@@ -1,0 +1,84 @@
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1614849286521-4c58b2f0ff15?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3JhZGllbnQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2px;
+}
+section{
+    width: 90vw;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+div{
+    width: 50px;
+    height: 50px;
+   
+    animation-name:ball ;
+    /* border: 1px solid black; */
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in ;
+
+}
+
+@keyframes ball {
+    from{
+       transform: translateY(0px);  
+    }
+    to{
+       transform: translateY(370px);
+        
+    }
+    
+}
+
+img{
+    animation-name: 2s linear infinite rotate;
+}
+div:nth-of-type(1){
+    animation-delay: 0.5s;
+
+}
+div:nth-of-type(3){
+animation-delay: 1s;
+}
+div:nth-of-type(4){
+    animation-delay: 0.7s;
+    
+}
+div:nth-of-type(5){
+    animation-delay:0.3s ;
+}
+div:nth-of-type(6){
+    animation-delay:0.6s ;
+}
+div:nth-of-type(7){
+    animation-delay:0.1s ;
+}
+div:nth-of-type(8){
+    animation-delay:0.8s ;
+}
+div:nth-of-type(9){
+    animation-delay:0.9s ;
+}
+div:nth-of-type(10){
+    animation-delay:0.4s ;
+}
+div:nth-of-type(11){
+    animation-delay:0.2s ;
+}
+@keyframes rotate {
+    100%{
+        transform: rotateZ(1turn);
+    }
+}
