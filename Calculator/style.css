@@ -1,0 +1,42 @@
+section{
+    margin: 20px auto;
+    border: 2px solid black;
+    width: 30%;
+    /* align-content: center; */
+    background-color: black;
+    box-shadow: 3px 3px 3px #6b705c;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size:50px;
+    /* border: 1px solid darkorange; */
+}
+table{
+    border: 1px solid black;
+    margin: 5px auto;
+    /* width: 50%; */
+    background-color: black;
+}
+
+td{
+    font-size: x-large;
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 50px;
+    font-weight: bold;
+    height: 50px;
+    background-color: #ffe8d6;
+   
+}
+td:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    background-color: #ddbea9;
+}
+
+article{
+    /* border: 1px solid darkorange; */
+   width: 50%;
+   margin: 2px auto;
+}
